@@ -6,13 +6,16 @@
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	char low;
+	int al;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
+	for (al = 'a'; al <= 'z'; al++)
+	{
+		putchar(al);
+	}
+	putchar('\n');
 
-	return (0);
+return (0);
 }
