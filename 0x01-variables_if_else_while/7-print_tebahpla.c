@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description:  prints the lowercase alphabet in reverse, followed by a new line
+ * Description: prints the lowercase alphabet in reverse
  * Return: Always 0 (success)
  */
 
@@ -15,6 +15,5 @@ int main(void)
 		putchar(alb);
 	}
 	putchar('\n');
-
 return (0);
 }
