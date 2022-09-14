@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign.c - main
+ * print_sign - main
  * @n: character to compare
  * Return: 1 if positive, 0 if zero, -1 if negative
  */
