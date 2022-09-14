@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - main 
+ * jack_bauer - main
  */
 
 void jack_bauer(void)
