@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * description:  prints the alphabet, in lowercase
+ * print_alphabet - prints alphabet
+ * description: prints the alphabet, in lowercase
  * Return: Always 0 (success)
  *
  */
