@@ -18,10 +18,10 @@ int main(void)
 	{
 		if (n != 20365011074)
 		{
-			printf("%ld, ", n);
+			printf("%d, ", n);
 		} else
 		{
-			printf("%ld\n", n);
+			printf("%d\n", n);
 		}
 		p = n + o;
 		n = o;
