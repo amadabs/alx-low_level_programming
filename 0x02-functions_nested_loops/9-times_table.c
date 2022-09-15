@@ -13,7 +13,7 @@ void times_table(void)
 		for (x = 0; x < 10; x++)
 		{
 			y = (w * x) / 10;
-			z = (w * x) / 10;
+			z = (w * x) % 10;
 
 			if ((w * x) > 9)
 				_putchar(y + '0');
@@ -21,7 +21,7 @@ void times_table(void)
 			_putchar(z + '0');
 
 			/* Dont print commas after the 10th column */
-			if (x != 9);
+			if (x != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
