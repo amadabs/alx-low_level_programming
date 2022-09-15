@@ -17,7 +17,7 @@ int main(void)
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(", %lu", p)
+		printf(", %lu", q);
 		q = q + p;
 		p = q - p;
 	}
