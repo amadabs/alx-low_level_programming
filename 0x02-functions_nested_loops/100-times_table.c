@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_times_table - times table function
+ * larger_100 - times table function
  * @n: integer to return
  */
 
-void print_times_table(int n)
+void larger_100(int n)
 {
 	int p;
 	int q;
