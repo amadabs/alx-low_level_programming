@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * larger_100 - multiply table function
- * @n: integer to return
+ * print_times_table - multipy table function
+ * @n: number of times table
  */
 
-void larger_100(int n)
+void print_times_table(int n)
 {
 	int p;
 	int q;
+	int c;
 
 	if (n <= 15 && n >= 0)
 	{
@@ -16,32 +17,32 @@ void larger_100(int n)
 		{
 			for (q = 0; q <= n; q++)
 			{
-				int prod = q * p;
+				int c = q * p;
 
 				if (q == 0)
 				{
 					_putchar('0');
-				}else if (prod <= 9)
+				}else if (c <= 9)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar('0' + (prod / 100));
-				}else if (prod > 99)
+					_putchar('0' + (c / 100));
+				}else if (c > 99)
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar('0' + (prod / 100));
-					_putchar('0' + ((prod / 10) % 10));
-					_putchar('0' + (prod % 10));
+					_putchar('0' + (c / 100));
+					_putchar('0' + ((c / 10) % 10));
+					_putchar('0' + (c % 10));
 				}else
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar('0' + (prod / 10));
-					_putchar('0' + (prod % 10));
+					_putchar('0' + (c / 10));
+					_putchar('0' + (c % 10));
 				}
 			}
 			_putchar('\n');
