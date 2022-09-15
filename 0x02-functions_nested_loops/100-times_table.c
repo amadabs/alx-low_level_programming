@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * larger_100 - times table function
+ * larger_100 - multiply table function
  * @n: integer to return
  */
 
