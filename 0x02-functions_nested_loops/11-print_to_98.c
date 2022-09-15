@@ -2,11 +2,8 @@
 #include <stdio.h>
 
 /**
- *
  * print_to_98 - This function is to print all natural numbers
  * @n: Starting integer
- *
- *
  */
 
 void print_to_98(int n)
