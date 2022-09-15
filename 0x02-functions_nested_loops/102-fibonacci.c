@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int m, n, o, p;
+	long int m, n, o, pass;
 
 	n = 1;
 
@@ -18,14 +18,14 @@ int main(void)
 	{
 		if (n != 20365011074)
 		{
-			printf("%d, ", n);
+			printf("%ld, ", n);
 		} else
 		{
-			printf("%d\n", n);
+			printf("%ld\n", n);
 		}
-		p = n + o;
+		pass = n + o;
 		n = o;
-		o = p;
+		o = pass;
 	}
 
 	return (0);
