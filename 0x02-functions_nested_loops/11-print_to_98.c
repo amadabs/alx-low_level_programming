@@ -3,8 +3,9 @@
 
 /**
  *
- * print_to_98 - this is to print all natural numbers
- * @n: starting integer
+ * print_to_98 - This function is to print all natural numbers
+ * @n: Starting integer
+ *
  *
  */
 
