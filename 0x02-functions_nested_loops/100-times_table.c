@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_times_table - times table function
+ * times_table - times table function
  * @n: integer to return
  */
 
-void print_times_table(int n)
+void times_table(int n)
 {
 	int p;
 	int q;
