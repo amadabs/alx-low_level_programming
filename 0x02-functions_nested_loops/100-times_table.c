@@ -7,9 +7,7 @@
 
 void print_times_table(int n)
 {
-	int p;
-	int q;
-	int c;
+	int p, q, c;
 
 	if (n <= 15 && n >= 0)
 	{
@@ -17,7 +15,7 @@ void print_times_table(int n)
 		{
 			for (q = 0; q <= n; q++)
 			{
-				int c = q * p;
+				c = q * p;
 
 				if (q == 0)
 				{
